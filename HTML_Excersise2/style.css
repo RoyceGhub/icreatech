@@ -1,0 +1,91 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .card {
+    width: 300px;
+    height: 5;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: black;
+  }
+  input {
+    height: 25px;
+    width: 96%;
+  }
+ 
+  .contact-card button {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+  }
+  #mname {
+    width: 96%;
+    height: 100px;
+    color: white;
+  }
+
+  .login-card button {
+    margin-top: 10px;
+    align-self: center;
+    width: 100%;
+    padding: 10px;
+    background-color: #50a045;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  
+  .survey-card label {
+    margin-bottom: 5px;
+    color: white;
+  }
+  .survey-card select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    
+  }
+  
+  .survey-card button {
+    align-self: center;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .survey-card button{
+    background-color: #50a045;
+  }
+  .survey-card label.radio-label {
+    display: inline-flex;
+    align-items: center;
+  }
+  .survey-card input[type='radio'] {
+    margin-right: 5px;
+  }
+  h2{
+    color: white;
+  }
+  label{
+    color: white;
+  }
+  p{
+    color: white;
+  }
